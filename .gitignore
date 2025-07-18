@@ -1,0 +1,60 @@
+# Virtual environments
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MySQL: you don’t store any local database files, but env files should be ignored
+*.sql
+*.db
+*.sqlite3
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Secrets and environment variables
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Pytest and test cache
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# MyPy
+.mypy_cache/
+
+# tox
+.tox/
+
+# Pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
