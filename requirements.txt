@@ -1,0 +1,8 @@
+asgiref==3.9.1
+Django==5.2.4
+mysql==0.0.3
+mysql-connector-python==9.3.0
+mysqlclient==2.2.7
+python-decouple==3.8
+sqlparse==0.5.3
+tzdata==2025.2
